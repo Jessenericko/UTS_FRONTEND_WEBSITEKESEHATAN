@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olahraga</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <div class="video-background">
+        <header>
+            <div class="logo">
+                <a href="/index.html">
+                    <img src="/assets/images/logo.png" alt="Logo">
+                </a>
+                <span>Jessen Lifestyle</span>
+            </div>
+            <div class="hamburger" id="hamburger-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+    
+            <div class="nav-links" id="nav-links">
+                <div><a href="/index.html">Home</a></div>
+                <div><a href="/pages/makanansehat/index.html">Kesehatan & Makanan Sehat</a></div>
+                <div><a href="/pages/olahraga/index.html">Olahraga</a></div>
+                <div><a href="/pages/teknologi/index.html">Teknologi</a></div>
+                <div><a href="/pages/gayahidup/index.html">Gaya Hidup Sehat</a></div>
+                <div><a href="/pages/kontak/index.html">Kontak</a></div>
+            </div>
+            <div class="search-container">
+                <i id="search-icon" class="fas fa-search"></i>
+                <input type="text" id="search-input" placeholder="Cari Berita..." class="hidden">
+                <button id="search-button" class="hidden">Cari</button>
+            </div>
+            </header>
+        </header>
+
+        <!-- Video background -->
+        <video id="background-video" class="background-video" autoplay muted loop>
+            <source src="/assets/videos/running.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+
+        <div class="centered-text">
+            <h1>Olahraga</h1>
+            <p>Temukan informasi terbaru tentang Olahraga yang mensehatkan tubuh Anda</p>
+        </div>
+    </div>
+
+
+    <div class="content-container">
+        <div class="content-item">
+            <a href="olahrumah.html">
+                <img src="/assets/images/olgrumah.png" alt="Olahraga Di Rumah">
+                <div class="content-info">
+                    <h2>Olahraga Di Rumah</h2>
+                    <p>Jelajahi berbagai latihan fisik yang bisa dilakukan di kenyamanan rumah Anda. Dengan variasi latihan yang mudah diikuti, jaga kebugaran tubuh Anda tanpa perlu pergi ke gym. Ciptakan rutinitas olahraga yang sesuai dengan kebutuhan dan waktu Anda, serta tingkatkan kesehatan dan stamina setiap hari.</p>
+                </div>
+            </a>
+        </div>
+
+        <div class="content-item">
+            <a href="yogameditasi.html">
+                <img src="/assets/images/yoga&meditasi.png" alt="Yoga & Meditasi">
+                <div class="content-info">
+                    <h2>Yoga & Meditasi</h2>
+                    <p>Jelajahi praktik yoga dan meditasi yang membantu menyeimbangkan pikiran dan tubuh. Dengan panduan yang mudah diikuti, temukan cara untuk merelaksasi diri, meningkatkan fleksibilitas, dan mencapai ketenangan batin. Bergabunglah dalam perjalanan menuju kesejahteraan holistik dan hidup yang lebih bermakna.</p>
+                </div>
+            </a>
+        </div>
+    </div>
+
+        <h2 class="section-title">Berita Terkait</h2>
+        <div class="content-container" id="news-container"></div>
+
+
+    <footer>
+        <div class="social-links">
+            <a href="https://facebook.com" target="_blank">Facebook</a>
+            <a href="https://twitter.com" target="_blank">Twitter</a>
+            <a href="https://instagram.com" target="_blank">Instagram</a>
+        </div>
+        <p>&copy; 2024 Jessen Lifestyle. All rights reserved.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

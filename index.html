@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <div class="video-background">
+        <header>
+            <div class="logo">
+                <a href="/index.html">
+                    <img src="assets/images/logo.png" alt="Logo">
+                </a>
+                <span>Jessen Lifestyle</span>
+            </div>
+           <!-- Hamburger Menu -->
+        <div class="hamburger" id="hamburger-menu">
+            <i class="fas fa-bars"></i>
+        </div>
+        <div class="nav-links" id="nav-links">
+            <div><a href="/index.html">Home</a></div>
+            <div><a href="/pages/makanansehat/index.html">Kesehatan & Makanan Sehat</a></div>
+            <div><a href="/pages/olahraga/index.html">Olahraga</a></div>
+            <div><a href="/pages/teknologi/index.html">Teknologi</a></div>
+            <div><a href="/pages/gayahidup/index.html">Gaya Hidup Sehat</a></div>
+            <div><a href="/pages/kontak/index.html">Kontak</a></div>
+        </div>
+        </header>
+
+        <!-- Video background -->
+        <video id="background-video" class="background-video" autoplay muted>
+            <source src="assets/videos/background.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+        <!-- Centered text -->
+        <div class="centered-text">
+            <h1>Welcome to Jessen Lifestyle</h1>
+            <p>Discover your way of life</p>
+        </div>
+    </div>
+
+    <!-- Content container -->
+    <div class="content-container">
+        <div class="content-item">
+            <a href="pages/olahraga/index.html">
+              <img src="assets/images/olahraga.jpeg" alt="Olahraga">
+              <div class="content-info">
+                 <h2>Olahraga</h2>
+                 <p>Menjaga tubuh tetap sehat dengan berbagai aktivitas fisik dan olahraga yang bisa dilakukan di rumah maupun di luar ruangan.</p>
+                </div>
+          </a>
+        </div>
+        <div class="content-item">
+            <a href="pages/teknologi/index.html">
+                <img src="assets/images/teknologi.jpeg" alt="Teknologi">
+                <div class="content-info">
+                    <h2>Teknologi</h2>
+                    <p>Mendalami perkembangan terbaru di dunia teknologi, mulai dari smartphone hingga perangkat canggih lainnya.</p>
+                </div>
+            </a>
+        </div>
+        <div class="content-item">
+            <a href="pages/makanansehat/index.html">
+                <img src="assets/images/makanan.jpeg" alt="Makanan Sehat">
+                <div class="content-info">
+                    <h2>Informasi Kesehatan & Makanan Sehat</h2>
+                    <p>Informasi kesehatan serta Resep dan panduan untuk memilih makanan sehat yang dapat meningkatkan kualitas hidup dan kebugaran tubuh.</p>
+                </div>
+            </a>
+        </div>
+        <div class="content-item">
+            <a href="pages/gayahidup/index.html">
+                <img src="assets/images/gayahidup.jpeg" alt="Gaya Hidup">
+                <div class="content-info">
+                    <h2>Gaya Hidup</h2>
+                    <p>Strategi untuk meningkatkan produktivitas dan mencapai keseimbangan hidup melalui pola gaya hidup yang sehat.</p>
+                </div>
+            </a>
+        </div>
+        <div class="subscription-form-container">
+            <h2>Bergabung Jessen Lifestyle</h2>
+            <p>Dapatkan informasi-informasi menarik seputar olahraga,teknologi,kesehatan dan makanan sehat,gaya hidup sehat,dan lain-lainya!</p>
+            <form id="subscribe-form">
+                <input type="email" name="email" placeholder="Masukkan email Anda" required>
+                <button type="submit">Bergabung</button>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <div class="social-links">
+            <a href="https://facebook.com" target="_blank">Facebook</a>
+            <a href="https://twitter.com" target="_blank">Twitter</a>
+            <a href="https://instagram.com/heru_purnomo17" target="_blank">Instagram</a>
+        </div>
+        <p>&copy; 2024 Jessen Lifestyle. All rights reserved.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+
+    <div id="ads-container">
+        <div id="ads-content">
+            <img src="/assets/images/iklan1.jpg" alt="Iklan" />
+            <p>Promo Spesial Hari Ini! Diskon hingga 50%</p>
+            <button id="close-ads">Tutup</button>
+        </div>
+    </div>
+</body>
+</html>

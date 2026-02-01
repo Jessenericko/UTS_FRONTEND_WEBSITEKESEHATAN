@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body class="kontak">
+    <header>
+        <div class="logo">
+            <a href="/index.html">
+                <img src="/assets/images/logo.png" alt="Logo">
+            </a>
+            <span>Jessen Lifestyle</span>
+        </div>
+         <!-- Hamburger Menu -->
+         <div class="hamburger" id="hamburger-menu">
+            <i class="fas fa-bars"></i>
+        </div>
+        <div class="nav-links" id="nav-links">
+            <div><a href="/index.html">Home</a></div>
+            <div><a href="/pages/makanansehat/index.html">Kesehatan & Makanan Sehat</a></div>
+            <div><a href="/pages/olahraga/index.html">Olahraga</a></div>
+            <div><a href="/pages/teknologi/index.html">Teknologi</a></div>
+            <div><a href="/pages/gayahidup/index.html">Gaya Hidup Sehat</a></div>
+            <div><a href="/pages/kontak/index.html">Kontak</a></div>
+        </div>
+    </header>
+
+    <div class="content-container-kontak">
+        <div class="sisi-kiri">
+            <h1>Kontak</h1>
+            <p>Silakan menghubungi kami untuk info lebih lanjut</p>
+
+            <div>
+                <img src="/assets/images/address-icon.png" alt="Logo Alamat">
+                <h3>ALAMAT</h3>
+            </div>
+            <p>Letjen S. Parman St No.1, RT.6/RW.16, Tomang, Grogol petamburan, West Jakarta City, Jakarta 11440</p>
+
+            <div>
+                <img src="/assets/images/phone-icon.png" alt="Logo Telepon">
+                <h3>TELEPON</h3> 
+            </div>
+            <p>Tel: (021) 5671747</p>
+
+            <div>
+                <img src="/assets/images/gps-icon.png" alt="Logo Lokasi">
+                <h3>LOKASI</h3>
+                <iframe src="/assets/images/map.png" width="450" height="350"></iframe>
+            </div>
+        </div>
+
+        <div class="sisi-kanan">
+            <div>
+                <img src="/assets/images/form-icon.png" alt="Logo Formulir">
+                <h3>FORMULIR KONTAK</h3>
+            </div>
+            <form id="contact-form" action="/submit" method="POST">
+                <input type="text" name="nama" placeholder="Nama Anda" required><br>
+                <input type="text" name="pekerjaan" placeholder="Pekerjaan Anda" required><br>
+                <input type="email" name="email" placeholder="Email Anda" required><br>
+                <input type="tel" name="telepon" placeholder="Telepon Anda" required><br>
+                <select name="jenis_kontak" required>
+                    <option value="">Pilih Jenis Kontak</option>
+                    <option value="pertanyaan">Pertanyaan</option>
+                    <option value="komplain">Komplain</option>
+                    <option value="saran">Saran</option>
+                </select><br>
+                <textarea name="pesan" placeholder="Pesan Anda" required></textarea><br>
+                <button type="submit">Kirim</button>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <div class="social-links">
+            <a href="https://facebook.com" target="_blank">Facebook</a>
+            <a href="https://twitter.com" target="_blank">Twitter</a>
+            <a href="https://instagram.com/heru_purnomo17" target="_blank">Instagram</a>
+        </div>
+        <p>&copy; 2024 Jessen Lifestyle. All rights reserved.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Makanan Sehat</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+</head>
+<body>
+    <div class="video-background">
+        <header>
+            <div class="logo">
+                <a href="/index.html">
+                    <img src="/assets/images/logo.png" alt="Logo">
+                </a>
+                <span>Jessen Lifestyle</span>
+            </div>
+            <div class="hamburger" id="hamburger-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+    
+            <div class="nav-links" id="nav-links">
+                <div><a href="/index.html">Home</a></div>
+                <div><a href="/pages/makanansehat/index.html">Kesehatan & Makanan Sehat</a></div>
+                <div><a href="/pages/olahraga/index.html">Olahraga</a></div>
+                <div><a href="/pages/teknologi/index.html">Teknologi</a></div>
+                <div><a href="/pages/gayahidup/index.html">Gaya Hidup Sehat</a></div>
+                <div><a href="/pages/kontak/index.html">Kontak</a></div>
+            </div>
+            <div class="search-container">
+                <i id="search-icon" class="fas fa-search"></i>
+                <input type="text" id="search-input" placeholder="Cari Berita..." class="hidden">
+                <button id="search-button" class="hidden">Cari</button>
+            </div>
+            </header>
+        </header>
+
+        <!-- Video background -->
+        <video id="background-video" class="background-video" autoplay muted loop>
+            <source src="/assets/videos/food.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+        <!-- Centered text -->
+        <div class="centered-text">
+            <h1>Informasi Kesehatan & Makanan Sehat</h1>
+            <p>Temukan informasi terbaru yang berkaitan dengan Kesehatan dan Makanan sehat</p>
+        </div>
+    </div>
+
+     <!-- Content container for technology -->
+     <div class="content-container">
+        <div class="content-item">
+            <a href="resep.html">
+                <img src="/assets/images/makanansehat.png" alt="Resep Makanan Sehat">
+                <div class="content-info">
+                    <h2>Resep Makanan Sehat</h2>
+                    <p>Jelajahi berbagai resep makanan sehat dengan bahan-bahan bergizi yang mudah diolah. Temukan hidangan yang tepat untuk menjaga kesehatan dan kebugaran Anda setiap hari.</p>
+                </div>
+            </a>
+        </div>
+        
+        <div class="content-item">
+            <a href="panduangizi.html">
+                <img src="/assets/images/panduan.png" alt="Panduan Gizi">
+                <div class="content-info">
+                    <h2>Panduan Gizi</h2>
+                    <p>Jelajahi berbagai panduan gizi seimbang untuk mendukung kesehatan tubuh. Temukan cara mudah untuk memenuhi kebutuhan nutrisi harian Anda dan terapkan gaya hidup yang lebih sehat.</p>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <h2 class="section-title">Berita Terkait</h2>
+    <div class="content-container" id="news-container"></div>
+        <!-- Dynamic news content will be inserted here -->
+         
+    
+
+    <footer>
+        <div class="social-links">
+            <a href="https://facebook.com" target="_blank">Facebook</a>
+            <a href="https://twitter.com" target="_blank">Twitter</a>
+            <a href="https://instagram.com" target="_blank">Instagram</a>
+        </div>
+        <p>&copy; 2024 Jessen Lifestyle. All rights reserved.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+
+    <div id="ads-container">
+        <div id="ads-content">
+            <img src="/assets/images/iklan 3.jpeg" alt="Iklan" />
+            <p>Kini lebih super cepat dapatkan speedy dengan Discount 50%!</p>
+            <button id="close-ads">Tutup</button>
+        </div>
+    </div>
+</body>
+</html>
